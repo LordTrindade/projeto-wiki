@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Carreira FIFA 16 Manchester United",
+  "introText": "Carreira iniciada em outubro de 2024. Elencos padrões do FIFA 16. Tentando ser \"realista\".  Ideia geral: remover os bagres do United, comprar jogadores que posteriormente tornaram-se muito bons,  não comprar os bagres que o United comprou",
+  "profileImage": "../media/wikipedia_logo.png",
+  "tableData": [],
+  "topics": [
+    {
+      "title": "Primeira Temporada",
+      "content": "Foram feitas as seguintes vendas:Foram feitas as seguintes contratações:Desempenho do time:Copa da Liga - campeãoCopa da Inglaterra - semifinais (Chelsea campeão)Premier League - campeãoChampions Cup - Quartas de Final (Barcelona)Desempenho de jogadores:Champions:Grupo:United 13 pontos, CSKA em segundo (acho que 9), depois Benfica e Celtic.Leverkusen ficou em primeiro no grupo com Arsenal e Barcelona kkkkOitavas de Final:Roma x AtléticoBayern x Man CityLazio x LeverkusenReal x ChelseaBarcelona x LyonBasel x Man UtdWolfsburg x JuventusCSKA x PSGIda e Volta:Roma 1 x 1 Atlético; Atlético 2 x 0 RomaBayern 3 x 1 Man City; Man City 1 x 2 BayernLazio 2 x 0 Leverkusen; Leverkusen 2 x 2 LazioReal 0 x 2 Chelsea; Chelsea 0 x 3 RealBarcelona 3 x 0 Lyon; Lyon 1 x 1 BarcelonaBasel 0 x 2 Man Utd; Man Utd 0 x 0 BaselWolfsburg 2 x 2 Juventus; Juventus 2 x 1 WolfsburgCSKA 0 x 1 PSG; PSG 2 x 1 CSKAQuartas de Final:Atlético x BayernLazio x Real MadridBarcelona x Man UtdJuventus x PSGAtlético 0 x 1 Bayern; Bayern 2 x 0 AtléticoLazio 1 x 1 Real Madrid; Real Madrid 2 x 1 LazioBarcelona 1 x 0 Man Utd; Man Utd 0 x 2 BarcelonaJuventus 1 x 1 PSG; PSG 2 x 1 JuventusSemi e Final:Bayern x Real MadridBarcelona x PSGBayern 3 x 1 Real Madrid; Real Madrid 1 x 2 BayernBarcelona 1 x 1 PSG; PSG 1 x 1 Barcelona (4-5 pen)Bayern 2 x 2 Barcelona (4-5 pen)Fatos a se destacar:",
+      "images": [
+        {
+          "src": "Captura%20de%20Tela%20(26).png",
+          "caption": "Classificação da Premier League",
+          "description": "Imagem de título Captura de Tela (26).png."
+        },
+        {
+          "src": "Captura%20de%20Tela%20(27).png",
+          "caption": "Chaveamento Champions",
+          "description": "Imagem de título Captura de Tela (27).png."
+        },
+        {
+          "src": "Captura%20de%20Tela%20(28).png",
+          "caption": "Chaveamento Europa League",
+          "description": "Imagem de título Captura de Tela (28).png."
+        }
+      ]
+    },
+    {
+      "title": "Segunda Temporada",
+      "content": "Conteúdo novo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "images": []
+    },
+    {
+      "title": "Terceira Temporada",
+      "content": "Conteúdo novo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "images": []
+    },
+    {
+      "title": "Quarta temporada",
+      "content": "Conteúdo novo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "images": []
+    }
+  ],
+  "topicList": [
+    "Introdução",
+    "Primeira Temporada",
+    "Segunda Temporada",
+    "Terceira Temporada",
+    "Quarta temporada"
+  ]
+}

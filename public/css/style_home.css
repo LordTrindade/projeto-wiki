@@ -1,0 +1,41 @@
+
+.main-home{
+    width: 100%;
+    height: auto;
+    margin-top: 0; 
+    padding: 10px;
+    margin-left: 10px;
+    display: flex; /* Usa Flexbox para alinhar as divs horizontalmente */
+    align-items: flex-start; /* Alinha itens ao topo */
+}
+
+.welcome-message{
+    text-align: center;
+}
+
+.welcome-message p {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.options-container {
+    width: 20%; /* Ajuste a largura conforme necessário */
+    position: sticky; /* Torna a div sticky */
+    top: 0; /* Define a posição sticky para o topo da viewport */
+    height: 100vh; /* Altura para preencher a tela */
+    overflow-y: auto; /* Permite rolagem se o conteúdo for muito */
+}
+
+.intro-text{
+    width:80%;
+}
+
+.table-main-page-list{
+    border: 1px solid black;
+}
+
+.table-main-page-list td{
+    padding: 1px 50px;
+    border: 1px solid black;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Wiki Exemplo 1</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style_main.css">
+
+
+</head>
+
+
+<body>
+    <div class="pagina-main-container">
+        <nav class="up-menu">
+            
+            <ul class="nav-links">
+                <li><a href="/home">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" placeholder="Pesquisar...">
+                <button type="button">Pesquisar</button>
+            </div>
+        </nav>
+
+         <div class = "main-container">
+            
+            <div class="list-text-content">
+                <ul>
+                </ul>
+                <button id="saveChanges">Salvar nova página</button>
+            </div>
+            <div class="main-content">
+                <div class="page-title">Digite aqui o título da página.</div>
+                <hr>
+
+                <div class="intro-container">
+
+                    <div class = "intro-text" id="introducao">
+                        <p>
+                            
+                        </p>
+                    </div>
+
+                    <div class = "intro-table">
+                        <div class="intro-table-title"></div>
+                        <div class="intro-table-img">
+                            <img src="../media/wikipedia_logo.png" alt="Foto de perfil">
+                        </div>
+                        <table class="profile-info-table">
+                        </table>
+                        <div class="table-controls">
+                            <button id="add-row">Adicionar Linha</button>
+                            <button id="remove-row">Remover Última Linha</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-controls">
+                    <button id="add-regular-content">Adicionar Tópico</button>
+                    <button id="remove-regular-content">Remover Último Tópico</button>
+                </div>
+            </div>
+
+            <div class="options-container">
+                <ul>
+                </ul>
+            </div>
+
+
+         </div>
+         
+    </div>
+
+    <script type="module" src="/js/creation_script.js"></script>
+
+</body>
+</html>

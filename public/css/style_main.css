@@ -1,0 +1,156 @@
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+    margin-top: 0; 
+    padding: 10px;
+    margin-left: 10px;
+    display: flex; /* Usa Flexbox para alinhar as divs horizontalmente */
+    align-items: flex-start; /* Alinha itens ao topo */
+}
+
+.page-title{
+    font-weight: bold;
+    font-size: 28px;
+    padding: 30px 2px 1px;
+}
+
+.topic-title{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 2px 1px;
+}
+
+.list-text-content, .options-container {
+    width: 20%; /* Ajuste a largura conforme necessário */
+    position: sticky; /* Torna a div sticky */
+    top: 0; /* Define a posição sticky para o topo da viewport */
+    height: 100vh; /* Altura para preencher a tela */
+    overflow-y: auto; /* Permite rolagem se o conteúdo for muito */
+}
+
+.main-content {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos adicionais para melhor visualização */
+.list-text-content ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+.list-text-content a, .options-container a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: black; /* Cor do texto dos links */
+    display: block; /* Faz cada link ocupar sua própria linha */
+    padding: 10px; /* Espaçamento para melhor clicabilidade */
+}
+
+.intro-container {
+    display: flex; /* Usa Flexbox para alinhar as divs horizontalmente */
+    width: 100%; /* Ocupa toda a largura disponível do elemento pai */
+}
+
+/* Estilo para a div de texto introdutório */
+.intro-text {
+    width: 70%; /* Ocupa 70% da largura total do container */
+    padding:10px 20px 10px 0px;
+}
+
+/* Estilo para a div da tabela introdutória */
+.intro-table {
+    width: 30%; /* Ocupa o restante da largura, 30% */
+    background-color: #f5f5f5; /* Define a cor de fundo */
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-table-title {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a div que contém a imagem */
+.intro-table-img {
+    width: 100%;
+    padding: 10px; /* Ajuste conforme necessário */
+    overflow: hidden; /* Impede que qualquer conteúdo exceda o limite da div */
+}
+
+.intro-table-img img {
+    max-width: 90%;
+    height: auto;
+}
+
+
+.intro-table table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; /* Espaçamento após a imagem */
+}
+
+.intro-table th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.intro-table th {
+    font-weight: bold; /* Títulos em negrito */
+}
+
+.profile-info-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; /* Espaçamento após a imagem */
+}
+.profile-info-table th, td{
+    text-align: left;
+    padding: 8px;
+}
+.profile-info-table th {
+    font-weight: bold; /* Títulos em negrito */
+}
+
+.regular-text {
+    width: 90%;
+    padding:10px 0px;
+}
+
+
+.image-content {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não houver espaço */
+    justify-content: space-between; /* Espaçamento entre as imagens */
+    width: 90%; /* Largura do container */
+    margin: auto; /* Centraliza o container */
+    gap: 10px; /* Espaço entre as imagens */
+}
+
+/* Estilo para cada elemento de imagem */
+.image-content-element {
+    background-color: #f5f5f5;
+    width: calc(33.333% - 10px); /* Calcula a largura para 3 por linha subtraindo o espaço do gap */
+    text-align: center; /* Centraliza o conteúdo textual */
+    margin-bottom: 20px; /* Margem abaixo de cada elemento */
+    display: flex;
+    flex-direction: column; /* Organiza a imagem e a legenda verticalmente */
+    align-items: center; /* Alinha o conteúdo centralmente no eixo cruzado */
+    padding: 5px; /* Espaço interno */
+}
+
+/* Estilo para imagens dentro dos elementos */
+.image-content-element img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para legendas sob as imagens */
+.image-content-element figcaption {
+    margin-top: 5px; /* Espaço entre a imagem e a legenda */
+}
